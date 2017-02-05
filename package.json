@@ -1,0 +1,23 @@
+{
+  "name": "test-webapp",
+  "version": "1.0.0",
+  "description": "Simple React Web App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint ./src",
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --content-base ./",
+    "prod": "NODE_ENV=production node server.js",
+    "postinstall": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brett-hobbs/test-webapp.git"
+  },
+  "author": "Brett Hobbs",
+  "homepage": "https://github.com/brett-hobbs/test-webapp#readme",
+  "devDependencies": {
+    "eslint": "^3.15.0",
+    "eslint-plugin-react": "^6.9.0"
+  }
+}
