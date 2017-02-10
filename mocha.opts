@@ -1,0 +1,7 @@
+--require ./test/setup.js
+--check-leaks
+--full-trace
+--slow 200
+--timeout 3000
+
+src/*_test.js

@@ -4,11 +4,12 @@
   "description": "Simple React Web App",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha --opts mocha.opts",
     "lint": "./node_modules/.bin/eslint ./src",
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --content-base ./",
     "prod": "NODE_ENV=production node server.js",
-    "postinstall": "webpack -p"
+    "postinstall": "webpack -p",
+    "watch:test": "mocha --watch --compilers js:babel-register"
   },
   "repository": {
     "type": "git",

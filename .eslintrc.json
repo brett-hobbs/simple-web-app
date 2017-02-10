@@ -2,9 +2,15 @@
   "env": {
     "browser": true,
     "es6": true,
+    "mocha": true,
     "node": true
   },
   "extends": "eslint:recommended",
+  "globals": {
+    "assert": false,
+    "expect": false,
+    "sinon": false
+  },
   "parserOptions": {
     "ecmaFeatures": {
       "experimentalObjectRestSpread": true,
