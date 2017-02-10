@@ -1,4 +1,4 @@
-# test-webapp
+# Simple React Web App
 
 Super simple shell for a web app using of the usual suspects (React/Express/Webpack/Eslint/Mocha).
 
