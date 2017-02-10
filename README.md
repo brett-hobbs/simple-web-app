@@ -1,5 +1,5 @@
 # test-webapp
 
-Super simple shell for a web app using React/Express/Webpack/Eslint.
+Super simple shell for a web app using of the usual suspects (React/Express/Webpack/Eslint/Mocha).
 
-Fork and spin up a simple web app using react quickly.
+Fork to spin up a simple web app using React quickly.
