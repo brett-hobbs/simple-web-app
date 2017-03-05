@@ -1,5 +1,5 @@
 {
-  "name": "test-webapp",
+  "name": "simple-web-app",
   "version": "1.0.0",
   "description": "Simple React Web App",
   "main": "index.js",
@@ -32,7 +32,6 @@
     "babel-preset-react": "^6.22.0",
     "bluebird": "^3.4.7",
     "chai": "^3.5.0",
-    "classes": "^0.3.0",
     "classnames": "^2.2.5",
     "jsdom": "^9.10.0",
     "mocha": "^3.2.0",
