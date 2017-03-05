@@ -6,10 +6,10 @@
   "scripts": {
     "test": "mocha --opts mocha.opts",
     "lint": "./node_modules/.bin/eslint ./src",
-    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --content-base ./",
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js -d --content-base ./",
     "prod": "NODE_ENV=production node ./server.js",
     "postinstall": "webpack -p",
-    "watch:test": "mocha --watch --compilers js:babel-register"
+    "watch": "mocha --opts mocha.opts -w"
   },
   "repository": {
     "type": "git",
@@ -18,8 +18,12 @@
   "author": "Brett Hobbs",
   "homepage": "https://github.com/brett-hobbs/simple-web-app#readme",
   "devDependencies": {
+    "css-loader": "^0.26.2",
     "eslint": "^3.15.0",
-    "eslint-plugin-react": "^6.9.0"
+    "eslint-plugin-react": "^6.9.0",
+    "less": "^2.7.2",
+    "less-loader": "^2.2.3",
+    "style-loader": "^0.13.2"
   },
   "dependencies": {
     "babel-core": "^6.22.1",
@@ -28,6 +32,8 @@
     "babel-preset-react": "^6.22.0",
     "bluebird": "^3.4.7",
     "chai": "^3.5.0",
+    "classes": "^0.3.0",
+    "classnames": "^2.2.5",
     "jsdom": "^9.10.0",
     "mocha": "^3.2.0",
     "react": "^15.4.2",

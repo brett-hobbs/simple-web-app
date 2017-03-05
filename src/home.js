@@ -1,4 +1,8 @@
+'use strict';
+
 const {Component, DOM: dom} = require('react');
+const classNames = require('classnames');
+const classes = require('./home.less');
 
 class Home extends Component {
   render() {
@@ -6,4 +10,4 @@ class Home extends Component {
   }
 }
 
-module.exports = Home;
+module.exports.Home = Home;

@@ -1,6 +1,6 @@
 'use strict';
 const testHelper = require('../test/helper');
-const Home = require('./home');
+const {Home} = require('./home');
 const ReactDOM = require('react-dom');
 
 describe('Home page', () => {
