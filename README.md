@@ -7,6 +7,8 @@ Fork to spin up a simple web app using React quickly.
 ```
 $ git clone https://github.com/brett-hobbs/simple-web-app
 
+$ source setup.sh
+
 $ npm install
 
 $ npm build
