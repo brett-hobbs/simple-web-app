@@ -20,12 +20,12 @@ module.exports = {
         }
       },
       {
-          test: /\.css$/,
-          loader: ['style-loader', 'css-loader']
+        test: /\.css$/,
+        loaders: ['style-loader', 'css-loader']
       },
       {
-          test: /\.less$/,
-          loader: ['style-loader', 'css-loader', 'less-loader'],
+        test: /\.less$/,
+        loaders: ['style-loader', 'css-loader', 'less-loader'],
       }
     ]
   },
