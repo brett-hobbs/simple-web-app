@@ -1,4 +1,5 @@
 --require ./test/setup.js
+--require ignore-styles
 --check-leaks
 --full-trace
 --slow 200
