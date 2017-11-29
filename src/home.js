@@ -1,13 +1,8 @@
-'use strict';
+'use strict'
+import React from 'react'
 
-const {Component, DOM: dom} = require('react');
-const classNames = require('classnames');
-const classes = require('./home.less');
-
-class Home extends Component {
+export class Home extends React.Component {
   render() {
-    return dom.div({}, 'Hello World');
+    return <div>Hello World</div>
   }
 }
-
-module.exports.Home = Home;
