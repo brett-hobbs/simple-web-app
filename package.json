@@ -7,7 +7,7 @@
     "test": "jest",
     "lint": "./node_modules/.bin/eslint ./src",
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js -d --content-base ./",
-    "prod": "NODE_ENV=production node ./server.js",
+    "prod": "NODE_ENV=production babel-node ./server.js",
     "postinstall": "webpack -p",
     "watch": "jest --watch",
     "storybook": "start-storybook -p 6006 -c .storybook",
