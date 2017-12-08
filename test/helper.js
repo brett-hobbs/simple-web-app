@@ -7,7 +7,6 @@ function renderComponent(desc, props) {
   global.document.body.appendChild(container)
 
   const elem = React.createElement(desc, props)
-  // eslint-disable-next-line react/no-render-return-value
   const component = ReactDOM.render(elem, container)
 
   if (!component) {
